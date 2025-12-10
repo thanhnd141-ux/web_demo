@@ -1,0 +1,17 @@
+/* CSS cơ bản cho web demo */
+
+body {
+    background-color: #f5f5f5;      /* màu nền nhẹ */
+    font-family: Arial, sans-serif; /* font dễ đọc */
+    padding: 20px;                  /* tạo khoảng cách */
+}
+
+h1 {
+    color: #ff6600;                 /* màu tiêu đề */
+    text-align: center;             /* canh giữa */
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
