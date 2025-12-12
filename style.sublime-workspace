@@ -1,0 +1,289 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"vi\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>web demo dầu tiên </title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n\n    <h1>đây là web đầu tiên của lớp học web căn bản</h1>\n\n    <p>Chào mừng bạn đến với trang web demo cơ bản.</p>\n\n</body>\n</html>\n",
+			"file": "index.html",
+			"file_size": 420,
+			"file_write_time": 134099092789625158,
+			"settings":
+			{
+				"buffer_size": 372,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"BAAAADYBAAAAAAAANwEAAAAAAAAAAAAAKgEAAAAAAAArAQAAAAAAAAAAAAAkAQAAAAAAACUBAAAAAAAAAAAAAPwAAAAAAAAA/QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAAEAAAA/AAAAAAAAAD8AAAAAAAAAAAAAAAAAPC/JAEAAAAAAAAkAQAAAAAAAAAAAAAAkHBAKgEAAAAAAAAqAQAAAAAAAAAAAAAAkHBANgEAAAAAAAA2AQAAAAAAAAAAAAAAkHBA"
+				],
+				[
+					20,
+					1,
+					"left_delete",
+					null,
+					"BAAAADkBAAAAAAAAOQEAAAAAAAABAAAAICwBAAAAAAAALAEAAAAAAAABAAAAICUBAAAAAAAAJQEAAAAAAAABAAAAIPwAAAAAAAAA/AAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAAEAAAA/QAAAAAAAAD9AAAAAAAAAAAAAAAAAPC/JgEAAAAAAAAmAQAAAAAAAAAAAAAAAPC/LQEAAAAAAAAtAQAAAAAAAAAAAAAAAPC/OgEAAAAAAAA6AQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"FOLDER",
+				"Sublime Merge: Folder History"
+			],
+			[
+				"AN",
+				"ANF: New File"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Add Channel"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"View Package File"
+			],
+			[
+				"backage",
+				"Preferences: Browse Packages"
+			],
+			[
+				"back",
+				"Selection: Expand to Brackets"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 122.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mac/Documents/GitHub"
+	],
+	"file_history":
+	[
+		"/Users/mac/Documents/GitHub/web_demo/demo.html",
+		"/Users/mac/Documents/GitHub/web_demo/index.html",
+		"/Users/mac/Downloads/test.html",
+		"/Users/mac/Documents/GitHub/web_demo/demo",
+		"/Users/mac/Documents/GitHub/web_demo/style.css",
+		"/Users/mac/Library/Application Support/Sublime Text/Packages/User/Side Bar.sublime-settings",
+		"/Users/mac/Library/Application Support/Sublime Text/Packages/Default/install_package_control.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
