@@ -1,13 +1,133 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document v2</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Báo tường lớp 12A1</title>
+  <link rel="stylesheet" href="baotuon.css" />
 </head>
 <body>
-	<h1>đây là web thứ 2</h1>
-	<a href="index.html">chuyển về index</a>
-	
+
+  <div class="wrap">
+
+    <!-- PHẦN ĐẦU TRANG -->
+    <div class="header">
+      <p class="small-title">Báo tường lớp 12A1</p>
+      <h1 class="main-title">Chắp cánh ước mơ</h1>
+      <p class="sub-title">Báo tường của lớp 12A1 kỉ niệm ngày ra trường</p>
+    </div>
+
+    <!-- THANH ĐIỀU HƯỚNG -->
+    <div class="nav">
+      <table class="nav-table">
+        <tr>
+          <td><a href="#cam-xuc">Cảm xúc</a></td>
+          <td><a href="#uoc-mo">Ước mơ</a></td>
+          <td><a href="#goc-anh">Góc ảnh</a></td>
+          <td><a href="#video">Video</a></td>
+          <td><a href="#binh-luan">Bình luận</a></td>
+          <td><a href="#lien-he">Liên hệ</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- PHẦN NỘI DUNG -->
+    <div class="content">
+
+      <div class="box" id="cam-xuc">
+        <h2 class="box-title">Cảm xúc ngày ra trường</h2>
+        <p>
+          Hôm nay là một ngày đặc biệt. Bên sân trường, nắng nhẹ, gió khẽ và những tiếng cười xen lẫn sự bồi hồi.
+          Ba năm cấp ba trôi qua nhanh như một cái chớp mắt. Chúng ta đã cùng nhau học, cùng nhau vui,
+          cùng nhau vượt qua áp lực và giữ lại rất nhiều kỉ niệm.
+        </p>
+        <p>
+          Ra trường không chỉ là lời tạm biệt, mà còn là lời hứa: sẽ cố gắng hơn, sống tử tế hơn và dám mơ lớn.
+          Dù mai này mỗi bạn một nơi, 12A1 vẫn là một phần thanh xuân không thể thay thế.
+        </p>
+      </div>
+
+      <div class="box" id="uoc-mo">
+        <h2 class="box-title">Chắp cánh ước mơ</h2>
+        <p>
+          Ước mơ không phải thứ ở trên trời rơi xuống. Nó được tạo ra từ thói quen tốt mỗi ngày: học đều,
+          làm đều, kiên trì và không bỏ cuộc khi gặp khó. Mỗi lần vấp ngã là một lần hiểu bản thân hơn.
+        </p>
+        <p>
+          Hôm nay kết thúc để ngày mai bắt đầu. Hãy đem theo tinh thần 12A1: đoàn kết, tự tin,
+          dám thử và dám chịu trách nhiệm. Chúng ta sẽ tự chắp cánh cho ước mơ của mình.
+        </p>
+      </div>
+
+      <!-- GÓC ẢNH + VIDEO  -->
+      <table class="media-table" width="100%" >
+        <tr>
+          <td class="media-col" valign="top" width="55%">
+            <h2 class="section-title" id="goc-anh">Góc ảnh</h2>
+
+            <table class="gallery" width="100%" >
+              <tr>
+                <td width="50%">
+                  <img class="img" alt="Kỉ niệm 1" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&auto=format&fit=crop" />
+                </td>
+                <td width="50%">
+                  <img class="img" alt="Kỉ niệm 2" src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=900&auto=format&fit=crop" />
+                </td>
+              </tr>
+              <tr>
+                <td width="50%">
+                  <img class="img" alt="Kỉ niệm 3" src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=900&auto=format&fit=crop" />
+                </td>
+                <td width="50%">
+                  <img class="img" alt="Kỉ niệm 4" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&auto=format&fit=crop" />
+                </td>
+              </tr>
+            </table>
+          </td>
+
+          <td class="media-col" valign="top" width="45%">
+            <h2 class="section-title" id="video">Video</h2>
+
+            <div class="video-box">
+              <video class="video" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+              </video>
+              <p class="note">Video mẫu (để luyện chèn media và bố cục).</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <!-- BÌNH LUẬN -->
+      <div class="comment" id="binh-luan">
+        <h2 class="section-title">Bình luận</h2>
+
+        <table class="form" >
+          <tr>
+            <td class="label">Email:</td>
+            <td><input class="input" type="text" value="tenban@email.com" /></td>
+          </tr>
+          <tr>
+            <td class="label" valign="top">Bình luận:</td>
+            <td><textarea class="textarea" rows="4" placeholder="Gửi lời nhắn cho 12A1..."></textarea></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button class="btn" type="button">Gửi</button></td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <!-- PHẦN CHÂN TRANG -->
+    <div class="footer" id="lien-he">
+      <p class="footer-text">© 2026 Nhóm 1 - Lớp 12A1</p>
+      <p class="footer-text">Email: nhom12a1@gmail.com</p>
+     
+    </div>
+
+  </div>
+
 </body>
 </html>
