@@ -1,0 +1,283 @@
+/*
+  BAO TUONG LOP 12A1
+  Chi dung HTML/CSS can ban.
+*/
+
+body{
+
+  font-family:  sans-serif;
+  background-color:#ffffff;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.90), rgba(255,255,255,0.90)),
+    url("https://images.unsplash.com/photo-1520975869018-6c0f2f0f0c91?w=1600&auto=format&fit=crop");
+  background-position: center;
+}
+
+/* khung trang */
+.wrap{
+  width: 980px;
+  margin: 18px auto;
+  border: 2px solid #bfc7cf;
+  background-color: rgba(255,255,255,0.85);
+}
+
+/* header */
+.header{
+  padding: 14px 18px 12px;
+  border-bottom: 2px solid #bfc7cf;
+  text-align: center;
+}
+
+.small-title{
+  font-size: 14px;
+  color:#111827;
+}
+
+.main-title{
+  margin: 8px 0 6px;
+  font-size: 28px;
+  color:#d32f2f;
+}
+
+.sub-title{
+  font-size: 13px;
+  color:#374151;
+}
+
+/* nav */
+.nav{
+  border-bottom: 2px solid #bfc7cf;
+  background-color:#f3f4f6;
+}
+
+.nav-table{
+  width:100%;
+}
+
+.nav-table td{
+  text-align:center;
+  padding: 10px 6px;
+  border-right: 1px solid #d1d5db;
+}
+
+.nav-table td:last-child{
+  border-right: 0;
+}
+
+.nav-table a{
+  color:#111827;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* content */
+.content{
+  padding: 14px 18px 18px;
+}
+
+.box{
+  border: 1px solid #d1d5db;
+  background-color: rgba(255,255,255,0.90);
+  padding: 12px 14px;
+  margin: 12px 0;
+}
+
+.box-title{
+  margin: 0 0 8px;
+  text-align:center;
+  font-size: 15px;
+  color:#111827;
+}
+
+.box p{
+  margin: 8px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color:#374151;
+}
+
+/* section titles for media */
+.section-title{
+  margin: 0 0 10px;
+  text-align:center;
+  font-size: 16px;
+  color:#111827;
+}
+
+.media-table{
+  margin-top: 10px;
+}
+
+.media-col{
+  border: 0;
+}
+
+/* gallery */
+.gallery td{
+  border: 1px solid #d1d5db;
+  background-color:#ffffff;
+  padding: 6px;
+}
+
+.img{
+  width:100%;
+  height: 180px;
+  border: 1px solid #e5e7eb;
+}
+
+/* video */
+.video{
+  width:100%;
+  height: 390px;
+  border: 1px solid #d1d5db;
+  background-color:#000;
+}
+
+/* comment area */
+.form-table{
+  width:100%;
+  margin-top: 10px;
+}
+
+.form-label{
+  width: 120px;
+  font-size: 13px;
+  color:#111827;
+  vertical-align: top;
+  padding-top: 6px;
+}
+
+.input{
+  width: 100%;
+  border: 1px solid #d1d5db;
+  padding: 6px;
+  font-size: 13px;
+}
+
+.textarea{
+  width: 100%;
+  height: 70px;
+  border: 1px solid #d1d5db;
+  padding: 6px;
+  font-size: 13px;
+}
+
+.btn{
+  border: 1px solid #111827;
+  background-color:#111827;
+  color:#ffffff;
+  padding: 7px 12px;
+  font-size: 13px;
+}
+
+/* footer */
+.footer{
+  border-top: 2px solid #bfc7cf;
+  background-color:#f3f4f6;
+  padding: 12px 18px;
+}
+
+.footer p{
+  margin: 4px 0;
+  font-size: 12px;
+  color:#374151;
+}
+
+
+/* gallery */
+.gallery td{
+  padding: 0;
+}
+
+.img{
+  width:100%;
+  border: 2px solid #ffffff;
+  outline: 1px solid #d1d5db;
+}
+
+/* video */
+.video{
+  width:100%;
+  border: 2px solid #ffffff;
+  outline: 1px solid #d1d5db;
+}
+
+.video-note{
+  margin: 10px 0 0;
+  font-size: 13px;
+  color:#374151;
+  text-align:center;
+}
+
+/* comment section */
+.comment-wrap{
+  margin-top: 8px;
+}
+
+.form-table td{
+  padding: 6px;
+}
+
+.label{
+  font-size: 13px;
+  color:#111827;
+}
+
+.input{
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #d1d5db;
+  font-size: 13px;
+}
+
+.textarea{
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #d1d5db;
+  font-size: 13px;
+  height: 90px;
+}
+
+.btn{
+  padding: 8px 14px;
+  border: 1px solid #111827;
+  background-color:#111827;
+  color:#ffffff;
+  font-size: 13px;
+}
+
+/* footer */
+.footer{
+  border-top: 2px solid #bfc7cf;
+  background-color: rgba(243,244,246,0.95);
+  padding: 12px 18px;
+}
+
+.footer p{
+  margin: 4px 0;
+  font-size: 12px;
+  color:#374151;
+}
+
+.footer .copy{
+  text-align:center;
+  color:#111827;
+}
+
+/* fix selector theo HTML */
+.comment{
+  border: 1px solid #d1d5db;
+  background-color: rgba(255,255,255,0.90);
+  padding: 12px 14px;
+  margin: 12px 0 0;
+}
+
+.form td{
+  padding: 6px;
+}
+
+.footer-text{
+  margin: 4px 0;
+  font-size: 12px;
+  color:#374151;
+}
